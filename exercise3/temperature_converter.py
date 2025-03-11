@@ -66,5 +66,5 @@ def kelvin_to_celsius(kelvin: Temperature) -> float:
         ValueError: If kelvin is less than 0 (below absolute zero)
     """
     if kelvin < 0:
-        raise ValueError("Temperature in Kelvin cannot be below absolute zero (0 K)")
+        raise ValueError("Temperature cannot be below absolute zero (0 K)")
     return round(kelvin - 273.15, 2)

@@ -62,5 +62,5 @@ def divide(a: Number, b: Number) -> Number:
         ValueError: If b is 0
     """
     if b == 0:
-        raise ValueError("Division by zero is not allowed")
+        raise ValueError("Cannot divide by zero")
     return a / b
